@@ -157,8 +157,8 @@ export default function Portfolio() {
               Web3mail is a web3 mailing service where users create a mail
               and can create a maillist with it, and send out newsletters,
                and can also subscribe to newsletters. The project may require
-               you connect you crypto wallet, but don't be scared, the app
-              won't deduct any of  your assets. If you are still uncertain, 
+               you connect you crypto wallet, but don&apos;t be scared, the app
+              won&apos;t deduct any of  your assets. If you are still uncertain, 
               then use a testnet like sepolia testnet.
               <br />
               <br />
