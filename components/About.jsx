@@ -36,7 +36,7 @@ export default function Profile() {
          whileInView={{ opacity:1, x:0 }}  
          transition={{ type:'spring', ease: 'easeOut', delay:.5, duration: .7, stiffness: 100, }}
         className='py-4 text-lg lg:text-2xl md:text-xl text-secondary text-center lg:w-[700px]'>
-            I'm Usenobong and i&apos;m a frontend and app developer with over 
+            I&apos;m Usenobong and i&apos;m a frontend and app developer with over 
             3 years of experience. I love creating cool, user-friendly 
             websites and apps that not only work great but also look 
             awesome. I&apos;m all about making things simple and fun to use. 
