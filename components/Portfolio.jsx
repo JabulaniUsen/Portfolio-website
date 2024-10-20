@@ -182,7 +182,7 @@ export default function Portfolio() {
           <ImageContainer src={eventify} />
           <PortfolioDescription>
             <p>
-              Evenity is a simple event management system. It's nothing much, Just a project I built for an assessment test. It has nice animations and darkmode effect. Very nice and responsive UI.
+              Evenity is a simple event management system. Its nothing much, Just a project I built for an assessment test. It has nice animations and darkmode effect. Very nice and responsive UI.
               <br />
               <br />
               The tech stack used for this project:
