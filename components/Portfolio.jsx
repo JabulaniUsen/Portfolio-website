@@ -1,10 +1,10 @@
 import Image from "next/legacy/image";
 import { motion } from "framer-motion";
-import proliferate from "../public/assets/images/proliferate.png";
+import postit from "../public/assets/images/postitnew.png";
 import hotelrev from "../public/assets/images/hotelrev.png";
 import web3mail from "../public/assets/images/web3mail.png";
 import cocktail from "../public/assets/images/Cocktails.png";
-import bell from "../public/assets/images/bell.png";
+import eventify from "../public/assets/images/eventify.mp4";
 import interacty from "../public/assets/images/interacty.png";
 import { Header } from "./About";
 
@@ -103,18 +103,15 @@ export default function Portfolio() {
       </div>
 
       <section className="md:mt-24">
-        <PortfolioCard href="https://prolife-rate-vsc5.vercel.app/">
-          <ImageContainer src={proliferate} />
+        <PortfolioCard href="https://post-it-two-beige.vercel.app/">
+          <ImageContainer src={postit} />
           <PortfolioDescription>
             <p>
-              Proliferate is an online learning platform where
-              students can attend lessons online from tutors
-              around the world. The platform has a student and
-              tutor side.
+              PostIt is an AI-powered content generator for social media and SEO platforms, helping creators and marketers with content creation, niche research, keyword optimization, and meme generation
               <br />
               <br />
               The tech stack utilized for this project:
-              <b> React.js, Redux-toolkit, and TailwindCSS.</b>
+              <b> Next.js, React.js, Tailwind CSS, Supabase, Drizzle ORM, PostgreSQL and Clerk.</b>
               <br />
               <br />
             </p>
@@ -181,19 +178,17 @@ export default function Portfolio() {
           </PortfolioDescription>
         </PortfolioCard>
 
-        <PortfolioCard href="https://bellinton-terminal-management-system.vercel.app/">
-          <ImageContainer src={bell} />
+        <PortfolioCard href="https://dashboard-test-taupe.vercel.app/">
+          <ImageContainer src={eventify} />
           <PortfolioDescription>
             <p>
-              This terminal management system is an enterprise software for
-              Bellington logistics company. It was developed to help staff
-              at Bellington logistics company carry out their tasks efficiently.
+              Evenity is a simple event management system. It's nothing much, Just a project I built for an assessment test. It has nice animations and darkmode effect. Very nice and responsive UI.
               <br />
               <br />
               The tech stack used for this project:
               <b>
                 {" "}
-                React.js, JavaScript, and Tailwind CSS.
+                React.js, TypeScript, and Tailwind CSS.
               </b>
             </p>
           </PortfolioDescription>
